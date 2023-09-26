@@ -1,27 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Warnes&display=swap");
+
 body {
-  background-color: #282c33;
+  background-color: black;
   font-family: sans-serif;
+  color: #f547fd;
 }
 
 h1 {
   text-align: center;
+  color: #ffffff;
+  font-size: 42px;
+  font-family: "Warnes", cursive;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f547fd, 0 0 20px #f547fd,
+    0 0 25px #f547fd, 0 0 30px #f547fd, 0 0 35px #f547fd;
 }
 
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
+  color: #f547fd;
 }
 
 .date {
-  opacity: 0.7;
+  color: white;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: black;
   padding: 30px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  border: 3px solid #f547fd;
 }
 
 .city {
@@ -34,6 +43,7 @@ h2 {
 .time {
   font-size: 36px;
   font-weight: bold;
+  color: white;
 }
 
 .time small {
@@ -47,14 +57,27 @@ select {
   width: 100%;
   border-radius: 4px;
   padding: 10px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+select:hover {
+  border: 1px solid #f547fd;
 }
 
 footer {
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
 }
 
 a {
-  color: #3f68de;
+  color: #f547fd;
+  text-decoration: none;
+}
+
+.backButton {
+  color: #f547fd;
+  font-size: 12px;
   text-decoration: none;
 }
