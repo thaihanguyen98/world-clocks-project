@@ -13,4 +13,4 @@ This web application project displays the current time in different cities world
 </ul>
 
 <h2>Live Demo</h2>
-https://app.netlify.com/sites/thaiha-world-clock-app/overview
+https://thaiha-world-clock-app.netlify.app/
