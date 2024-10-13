@@ -42,22 +42,23 @@ To run this app locally, follow these steps:
 
    ```bash
    git clone https://github.com/thaihanguyen98/world-clock-app.git
-Navigate to the project directory:
 
-bash
-Copy code
-cd world-clock-app
-Install the dependencies:
+2. Navigate to the project directory:
 
-bash
-Copy code
-npm install
-Start the development server:
+   ```bash
+   cd world-clock-app
 
-bash
-Copy code
-npm start
-The app should now be running at http://localhost:3000.
+3. Install the dependencies:
+
+   ```bash
+   npm install
+
+4. Start the development server:
+
+   ```bash
+   npm start
+
+5. The app should now be running at http://localhost:3000.
 
 ## Usage
 Enter a city name in the search bar.
